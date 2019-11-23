@@ -19,6 +19,9 @@ from selenium import webdriver
 url = "http://www.google.com"
 driver = webdriver.Chrome()
 
+#driver.quit()
+
+
 
 driver.get(url)
 
