@@ -5,7 +5,7 @@ import validators
  
  
 
-text_file = open("dgdaUrl.txt", "r")
+text_file = open("url.txt", "r")
 links = text_file.readlines()
 
 print ("\nNo of links:"+str(len(links)))
