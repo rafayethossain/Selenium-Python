@@ -6,12 +6,10 @@ from selenium  import webdriver
 import time 
 
 
-chromepath = "c:/chromedriver/chromedriver.exe";
+driver = webdriver.Chrome()
 
-driver = webdriver.Chrome(chromepath);
-
-driver.get('http://onecore.net');
-ids= driver.find_elements_by_xpath('//*[@href]');
+driver.get('http://onecore.net')
+ids= driver.find_elements_by_xpath('//*[@href]')
 
 
 for ii in ids:

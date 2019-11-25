@@ -6,9 +6,9 @@ import time
 
 
 
-chromepath = r"c:/chrome/chromedriver.exe";
+ 
 
-browser = webdriver.Chrome(chromepath);
+browser = webdriver.Chrome()
 browser.get('https://google.co.uk')
 
 

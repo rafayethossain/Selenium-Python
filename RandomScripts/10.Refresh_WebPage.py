@@ -7,10 +7,7 @@ import time
 # in this tutorial we are going to Refresh webpage , we will use 2 methods first : refresh method , second , we will use keyboard shortcut f5     
 
 
-
-chromepath = r"c:/chrome/chromedriver.exe";
-
-browser = webdriver.Chrome(chromepath);
+browser = webdriver.Chrome()
 browser.get('https://www.wikipedia.org')
 
 

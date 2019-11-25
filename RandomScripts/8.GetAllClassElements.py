@@ -8,10 +8,7 @@ from selenium import webdriver
 #we will use method find_elements_by_xpath to get elements array
 
 
-
-chromepath = r"c:/chrome/chromedriver.exe";
-
-browser = webdriver.Chrome(chromepath);
+browser = webdriver.Chrome()
 browser.get('https://www.google.com/')
 
  

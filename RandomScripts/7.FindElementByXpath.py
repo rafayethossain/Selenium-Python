@@ -6,11 +6,7 @@ from selenium import webdriver
 #                                     Explaination
 # in this tutorial we are going to select link by xpath     
 
-
-
-chromepath = r"c:/chrome/chromedriver.exe";
-
-browser = webdriver.Chrome(chromepath);
+browser = webdriver.Chrome()
 browser.get('https://www.google.com/')
 
 try:

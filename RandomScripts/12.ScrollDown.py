@@ -7,7 +7,7 @@ import time
 
 
 
-#chromepath = r"c:/chrome/chromedriver.exe";
+ 
 
 browser = webdriver.Chrome()
 browser.get('https://wikipedia.org')

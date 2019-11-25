@@ -6,10 +6,8 @@ from selenium.webdriver.common.keys import Keys
 
 
 
-chromepath = r"c:/chrome/chromedriver.exe";
-
-browser = webdriver.Chrome(chromepath);
-browser.get("https://google.com");
+browser = webdriver.Chrome()
+browser.get("https://google.com")
 
 # Get Element by Id
 
